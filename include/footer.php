@@ -1,5 +1,3 @@
-
-
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -41,17 +39,25 @@
   		</div>
   	<div class="modal-footer">
     	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-    	<button type="button" class="btn btn-primary">Save changes</button>
   	</div>
 	</div><!-- /.modal-content -->
   	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+	</div><!-- /.modal -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
 <script type="text/javascript">
+
+$("#wrapper").toggleClass("toggled");
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+});
+
+
 $(function() {
 
     // intiliaze the modal but don't show it yet
@@ -68,11 +74,17 @@ $(function() {
     });
 
 });
+
+
 </script>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                
 </body>
 
 </html>
 
-</body>
-
-</html>

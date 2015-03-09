@@ -3,17 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Mittal Electronics">
+    <meta name="google-translate-customization" content="5dfb00551447deee-140630750bbf48cf-gd8355e992983f2c7-14"></meta>
+    <meta name="description" content="Mittal Electronics">
 	<meta name="keywords" content="Electronics,CFL,Electronics spares, IC, Wires">
 	<meta name="author" content="Yatharth Singhal">
     <title>MITTAL ELECTRONICS &copy;</title>
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
- 	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    
+    <!-- 
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-     
+      -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,8 +28,8 @@
 
 <body>
 
-
-    <!-- Navigation -->
+        <!-- /#sidebar-wrapper -->
+       <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,6 +41,12 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand topnav" href="#">Mittal Electronics</a>
+                
+                
+              <!--
+                Toggle Side Bar
+                 <a href="#menu-toggle" class="navbar-brand topnav" id="menu-toggle">Toggle Menu</a>
+               -->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -51,47 +60,17 @@
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
+                    <li>
+        <a>            <div id="google_translate_element"></div>
+</a>
+
+        
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-
-
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>MITTAL ELECTRONICS</h1>
-                        <h3>Valuing relationships since 1975</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                           <!--
-                            <li>
-                               <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            -->
-                            <li>
-                             <a href="https://www.facebook.com/pages/Mittal-electronics/1546012145686016?ref=br_tf" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                            </li>
-                            <!-- <li>
-                                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                             -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
+    
+  
